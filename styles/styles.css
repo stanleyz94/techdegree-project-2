@@ -1,0 +1,466 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+
+.name2 {
+    font-size: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: 1.2em;
+    color: rgb(131, 131, 131)
+}
+
+body {
+    background-color:rgb(245, 245, 245); 
+    font-family: 'Varela', sans-serif;
+    
+    
+}
+
+
+.portfolio-image {
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h2, h3 {
+    text-align: center;
+}
+
+hr {
+    
+    border-top: 1px solid #ccc;
+   
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+    
+    }
+
+.wrapper {
+        width: 90%;
+       
+        margin: 0 auto;
+        }
+     
+header {
+            text-align: center;
+        
+        }
+ 
+        
+.section-profile {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.portfolio p {
+
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+
+
+.bottom-nav{
+    font-weight: bold;    
+    text-transform: uppercase;
+    display:none;
+}
+
+
+footer {
+    overflow: hidden;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+.name2,
+#backtotop {
+    display: inline-block;
+    
+  
+
+}
+
+.name2{
+    float: left;
+    margin: 0;
+}
+#backtotop {
+    font-weight: bold;    
+    text-transform: uppercase; 
+   float:right;
+
+
+}
+
+.contact {
+    padding: 60px 0;
+    
+}
+
+
+
+.main-nav li{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;    
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.main-nav a {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em 0;
+    display:inline-block;
+}
+
+.portfolio {
+    margin-top: 4em;
+}
+
+.portfolio h2,
+.contact h2,
+.portfolio p {
+    margin-bottom: 2em;
+}
+
+
+.portfolio h3 {
+    margin-top: 1.2em;
+}
+
+
+/* ================================================= 
+  Media Queries
+==================================================== */
+
+
+
+
+@media (min-width: 768px){
+
+
+    .contact p{
+        font-size: 2.2vw;
+    }
+    
+
+    .section-profile p { 
+        font-size: 2.4vw;
+        
+    }
+
+
+
+    .name{
+        padding-top: 1.1em;
+    
+    }
+    
+    footer {
+        
+       
+        overflow: hidden;
+        
+       
+    }
+    
+    
+    #backtotop {
+        display: none;
+    }
+
+    .name2 {
+        float:left;
+    }
+    
+    .bottom-nav {
+        float: right;
+        display: block;
+        
+        
+      
+    }
+    
+    .bottom-nav li {
+        float: left;
+        margin-left: 1em;
+        
+      
+    }
+    
+    
+    
+    header {
+        text-align: center;
+    
+    }
+    
+    .main-nav{
+    
+        display:inline-block;
+    }
+       
+    .main-nav a {
+        padding: 10px 15px;
+        
+    } 
+    
+    .main-nav li{
+        float:left;
+    
+    }
+    
+    .marketing-page, .search-page, .travel-app, .map-favourite{
+        padding-bottom: 2em;
+
+    }
+
+    
+
+
+    .marketing-page, .travel-app, .photo-gallery {
+        float:left;
+        width:50%;
+        
+    
+    }
+    
+    .search-page, .map-favourite, .calculator{
+    
+    
+        float:left;
+        width:50%;
+    }
+    
+    
+
+    /* ================================================= */
+    
+    .profile {
+        float: right;
+        width: 40%;
+        margin: 0;
+        padding-left: 1em;
+    }
+    
+    p {
+        float: left;
+        width: 60%;
+    }
+    
+    
+    .section-profile {
+        margin-top: 3em;
+        text-align: left;
+    }
+    
+    
+    .marketing-page, .travel-app, .photo-gallery {
+    
+      padding-right: 10px;
+    }
+    
+    .search-page, .map-favourite, .calculator{
+        padding-left: 10px;
+    }
+      
+    
+    
+    .portfolio p {
+        text-align: center;
+       width: 100%;
+        
+    
+    }
+    
+    .contact p {
+        
+        text-align: center;
+        float:none;
+        width: 60%;
+        margin: 2% auto;
+        
+        
+    }
+    
+    address {
+        
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        }
+    
+    .portfolio {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 851.38px; 
+    }
+    
+
+
+}
+
+@media (min-width: 1024px){
+    header {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .contact p{
+        font-size: 1.9vw;
+    }
+    
+
+    .section-profile p { 
+        font-size: 2vw;
+        
+    }
+
+    .name {
+        float:left;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main-nav {
+        float: right;
+        padding: 0;
+        
+        
+      
+    }
+    
+    .main-nav li {
+        float: left;
+        margin-left: 1em;
+        
+      
+    }
+    
+
+
+
+    .wrapper {
+        width: 90%;
+        
+        margin: 0 auto;
+        }
+    
+
+    .marketing-page {
+        float: left;
+        width: 33.3%;
+        padding-bottom: 2em;
+    }
+
+    .search-page{
+        float: left;
+        width: 33.3%;
+        padding-bottom: 2em;
+
+    }
+    .travel-app {
+        float: left;
+        width: 33.3%;
+        padding-bottom: 2em;
+
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 33.3%;
+    }
+
+    .map-favourite {
+        float: left;
+        width: 33.3%;
+    }
+
+
+    .calculator {
+        float: left;
+        width: 33.3%;
+    }
+
+    .marketing-page,
+    .search-page,
+    .map-favourite,
+    .photo-gallery {
+        padding: 0 10px 0 0;
+    }
+
+    .travel-app,
+    .calculator {
+        padding-right: 10px;
+       
+    }
+    .calculator {
+        padding-left: 0px;
+        
+    }
+    
+    .portfolio {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        margin-right: auto;
+        margin-left: 0.6em;
+
+       
+        
+        
+        
+    }
+   
+    
+   
+}
+
+
